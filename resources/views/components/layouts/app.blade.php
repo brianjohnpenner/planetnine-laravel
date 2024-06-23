@@ -20,7 +20,13 @@
     </head>
 
     <body class="antialiased">
+
+    <livewire:header />
+
         {{ $slot }}
+
+
+        <livewire:footer />
 
         @filamentScripts
         @vite('resources/js/app.js')
