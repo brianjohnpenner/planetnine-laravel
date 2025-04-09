@@ -8,7 +8,12 @@ use function Livewire\Volt\{state, layout};
 ?>
 
 <x-layouts.app>
-    <div>
-        Hi, I'm a Livewire componenttttt!
-    </div>
+
+    @volt()
+
+    {{--    <x-home.hero />--}}
+    <x-home.hero2/>
+    @endvolt
+
+
 </x-layouts.app>

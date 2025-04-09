@@ -32,11 +32,11 @@ state([
 
 ?>
 
-<section>
-    <nav class="relative py-6 bg-gray-900">
-        <div class="container mx-auto px-4 flex justify-between items-center">
-            <a class="text-white text-3xl font-bold leading-none" href="#">
-                <img class="h-12" src="atis-assets/logo/atis/atis-mono-white.svg" alt="" width="auto">
+<section class="">
+    <nav class="relative py-6 bg-gray-900 z-0">
+        <div class="container mx-auto px-4 z-10 flex justify-between items-center">
+            <a class="text-white text-3xl font-bold leading-none z-10" href="#">
+                <img class="h-14 z-10" src="{{ asset('images/planet9logoNameBGDark.png') }}" alt="" width="auto">
             </a>
             <div class="lg:hidden">
                 <button class="navbar-burger flex items-center text-white p-3">
